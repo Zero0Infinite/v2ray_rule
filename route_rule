@@ -267,19 +267,19 @@ DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,applogios.uc.cn,REJECT
 DOMAIN,track.uc.cn,REJECT
 # > Tencent
-DOMAIN-SUFFIX,bugly.qq.com,REJECT
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN-SUFFIX,rqd.qq.com,REJECT
-DOMAIN,btrace.qq.com,REJECT
-DOMAIN,mtrace.qq.com,REJECT
-DOMAIN,oth.eve.mdt.qq.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,pingma.qq.com,REJECT
-DOMAIN,pingtcss.qq.com,REJECT
-DOMAIN,splashqqlive.gtimg.com,REJECT
-DOMAIN,tajs.qq.com,REJECT
+DOMAIN-SUFFIX,bugly.qq.com,DIRECT
+DOMAIN-SUFFIX,e.qq.com,DIRECT
+DOMAIN-SUFFIX,gdt.qq.com,DIRECT
+DOMAIN-SUFFIX,l.qq.com,DIRECT
+DOMAIN-SUFFIX,rqd.qq.com,DIRECT
+DOMAIN,btrace.qq.com,DIRECT
+DOMAIN,mtrace.qq.com,DIRECT
+DOMAIN,oth.eve.mdt.qq.com,DIRECT
+DOMAIN,pgdt.gtimg.cn,DIRECT
+DOMAIN,pingma.qq.com,DIRECT
+DOMAIN,pingtcss.qq.com,DIRECT
+DOMAIN,splashqqlive.gtimg.com,DIRECT
+DOMAIN,tajs.qq.com,DIRECT
 # >> 酷狗酷我
 DOMAIN,adserviceretry.kugou.com,REJECT
 DOMAIN,ads.service.kugou.com,REJECT
