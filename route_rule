@@ -1,18 +1,30 @@
-DIRECT,DOMAIN-SUFFIX,beacon.qq.com
-DIRECT,DOMAIN-SUFFIX,bugly.qq.com
-DIRECT,DOMAIN-SUFFIX,e.qq.com
-DIRECT,DOMAIN-SUFFIX,gdt.qq.com
-DIRECT,DOMAIN-SUFFIX,l.qq.com
-DIRECT,DOMAIN-SUFFIX,rqd.qq.com
-DIRECT,DOMAIN,adsmind.tc.qq.com
-DIRECT,DOMAIN,btrace.qq.com
-DIRECT,DOMAIN,mtrace.qq.com
-DIRECT,DOMAIN,oth.eve.mdt.qq.com
-DIRECT,DOMAIN,pgdt.gtimg.com
-DIRECT,DOMAIN,pgdt.gtimg.cn
-DIRECT,DOMAIN,pingma.qq.com
-DIRECT,DOMAIN,pingtcss.qq.com
-DIRECT,DOMAIN,splashqqlive.gtimg.com
-DIRECT,DOMAIN,tajs.qq.com
-DIRECT,DOMAIN,wxsnsdy.wxs.qq.com
-DIRECT,DOMAIN,wxsnsdythumb.wxs.qq.com
+{
+  "type": "field",
+  "domain": [
+    "baidu.com",
+    "qq.com",
+    "geosite:cn"
+  ],
+  "ip": [
+    "0.0.0.0/8",
+    "10.0.0.0/8",
+    "fc00::/7",
+    "fe80::/10",
+    "geoip:cn"
+  ],
+  "port": "53,443,1000-2000",
+  "network": "tcp",
+  "source": [
+    "10.0.0.1"
+  ],
+  "user": [
+    "love@v2ray.com"
+  ],
+  "inboundTag": [
+    "tag-vmess"
+  ],
+  "protocol":["http", "tls", "bittorrent"],
+  "attrs": "attrs[':method'] == 'GET'",
+  "outboundTag": "direct",
+  "balancerTag": "balancer"
+}
