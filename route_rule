@@ -280,6 +280,27 @@ DOMAIN,pingma.qq.com,DIRECT
 DOMAIN,pingtcss.qq.com,DIRECT
 DOMAIN,splashqqlive.gtimg.com,DIRECT
 DOMAIN,tajs.qq.com,DIRECT
+DOMAIN-SUFFIX,foxmail.com,DIRECT
+DOMAIN-SUFFIX,foxmail.com.cn,DIRECT
+DOMAIN-SUFFIX,gtimg.cn,DIRECT
+DOMAIN-SUFFIX,gtimg.com,DIRECT
+DOMAIN-SUFFIX,gtimg.com.cn,DIRECT
+DOMAIN-SUFFIX,imqq.com,DIRECT
+DOMAIN-SUFFIX,myapp.com,DIRECT
+DOMAIN-SUFFIX,qcloud.com,DIRECT
+DOMAIN-SUFFIX,qcloudimg.com,DIRECT
+DOMAIN-SUFFIX,qpic.cn,DIRECT
+DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,qqmail.com,DIRECT
+DOMAIN-SUFFIX,qzone.com,DIRECT
+DOMAIN-SUFFIX,smtcdns.com,DIRECT
+DOMAIN-SUFFIX,tencent.com,DIRECT
+DOMAIN-SUFFIX,tencent.com.cn,DIRECT
+DOMAIN-SUFFIX,wechat.com,DIRECT
+DOMAIN-SUFFIX,servicewechat.com,DIRECT
+DOMAIN-SUFFIX,wegame.com,DIRECT
+DOMAIN-SUFFIX,weiyun.com,DIRECT
+DOMAIN-SUFFIX,tenpay.com,DIRECT
 # >> 酷狗酷我
 DOMAIN,adserviceretry.kugou.com,REJECT
 DOMAIN,ads.service.kugou.com,REJECT
