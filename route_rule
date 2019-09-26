@@ -1,9 +1,1 @@
-{
-  "routingmode": "direct",
-  "matchmode": "domain-suffix",
-  "value": [
-    "baidu.com",
-    "qq.com",
-    "geosite:cn"
-  ]
-}
+DIRECT,DOMAIN-KEYWORD,epochtimes
